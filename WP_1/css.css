@@ -1,0 +1,41 @@
+li{
+    margin-bottom: 15px;
+    /* 상하좌우 모두 15픽셀의 여백을 의미 */
+    /* 픽셀 여러개 설정시 위 오른쪽 아래 왼쪽 => 시계방향 */
+}
+
+#head{/* head라는 아이디를 가진 곳에 css 적용*/
+    background-color: gold;
+}
+#head:hover{
+    background-color: blueviolet;
+}
+td{
+    border: 1px solid black; /*선 굵기, 색상 지정*/
+    text-align: center; /*가운데 정렬*/
+    padding: 14px;
+}
+table,tr,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* 테두리 병합 */
+}
+.chk{
+    width: 120px;
+}
+.name{
+    width: 90px;
+}
+.number{
+    width: 100px;
+}
+.age{
+    width: 90px;
+}
+.grade{
+    width :150px;
+}
+iframe{
+    width: 700px;
+    height: 500px;
+}

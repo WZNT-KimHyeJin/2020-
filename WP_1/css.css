@@ -7,6 +7,9 @@ li{
 #head{/* head라는 아이디를 가진 곳에 css 적용*/
     background-color: gold;
 }
+#input{
+    text-align: right;
+}
 #head:hover{
     background-color: blueviolet;
 }

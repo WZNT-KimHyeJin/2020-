@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style type ="text/css">
+        table,th,td{
+            border: solid 1px red;
+            text-align: center;
+        }
+        th{
+            font-family: 궁서;
+            font-size: 40px;
+        }
+        td{
+            font: italic bold 20px 맑은 고딕;
+        }
+        .MO{
+            width: 70px;
+            height: 30px;
+            background-color: red;
+            color:white;
+        }
+        .TU{
+            background-color: salmon;
+            color: white;
+        }
+        #id{
+            background-image: url("토토로.jpg");
+        }
         #selected{
             color:blueviolet;
         }
@@ -15,9 +39,51 @@
         .dark #selected{
             color : rgb(255, 0, 170)
         }
+        
     </style>
 </head>
 <body class>
+    <a href="https://www.youtube.com/watch?v=EIkxyH2Cuho" title="응 뻥이야 데식이 노래모음이야 ><" target="blank" >
+        공부할 때 듣기 좋은 디즈니 노래 모음</a><br><br>
+        <p style="font-size: large;">하지만 토토로는 지브리지</p>
+        <img src="토토로.jpg" alt="사진이 존재하지 않아!!" height="200px" width="400px"><br><br>
+
+        <strong>비밀번호 입력하시오</strong><input type="password" value =" 비번">
+        <br><br><strong style="color: blue;">이건 버튼이양  </strong><input type="button" value="버튼이양">
+        <br><br><textarea id="text" rows="10" cols="40" ></textarea>
+    <br><br>
+        <table>
+        <thead>
+            <tr>
+                <th>1-9</td>
+                <th class="MO">월</th>
+                <th class="TU">화</th>
+                <th class="WE">수</th>
+                <th class="TH">목</th>
+                <th class="FR">금</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1교시</td>
+                <td class="MO">학급</td>
+                <td class="TU">실영</td>
+                <td class="WE">세지</td>
+                <td class="TH">국(최)</td>
+                <td class="FR" rowspan="2">정보</td>
+            </tr>
+            <tr>
+                <td>2교시</td>
+                <td class="MO">국(김)</td>
+                <td class="TU">한국</td>
+                <td class="WE">수학</td>
+                <td class="TH">실영</td>
+            </tr>
+            <tr>
+                <td colspan="6" id =" lunch" >점심시간</td>
+            </tr>
+        </tbody>
+    </table>
     <ul>
         <li id ="did">HTML</li>
         <li class = "active">CSS</li>
@@ -28,7 +94,7 @@
         <li class ="active">CSS</li>
         <li class="active">JAVA SCRIPT</li><br>
     </ul>
-    <ol>
+    <ol type="a">
         <li>HTML</li>
         <li>CSS</li>
         <li id="selected">JAVA SCRIPT</li>
@@ -67,4 +133,5 @@
         lis_3.style.color='red'
     </script>
 </body>
+<link rel="stylesheet" href="practice.css">
 </html>
